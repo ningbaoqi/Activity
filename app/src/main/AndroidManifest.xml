@@ -43,7 +43,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!--锁死某个Activity的横竖屏用属性screenOrientation landscape横  portrait竖-->
         <activity
+            android:screenOrientation="portrait"
             android:name=".SecondActivity"
             android:label="第二个界面">
             <intent-filter>
