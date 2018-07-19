@@ -9,4 +9,4 @@
 ### Activity的scheme跳转协议
 [Activity的scheme跳转协议](https://github.com/ningbaoqi/Activity/blob/master/README-scheme.md)
 ### 锁死横竖屏
-[锁死横竖屏](https://github.com/ningbaoqi/Activity/blob/master/README-scheme.md)
+[锁死横竖屏](https://github.com/ningbaoqi/Activity/commit/7a0bb76f87c60142f06615b490ec38809391d1fe)
