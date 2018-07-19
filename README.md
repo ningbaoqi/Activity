@@ -12,3 +12,5 @@
 [锁死横竖屏](https://github.com/ningbaoqi/Activity/commit/7a0bb76f87c60142f06615b490ec38809391d1fe)
 ### 启动activity并要求返回数据并且销毁activity
 [启动activity并要求返回数据并且销毁activity](https://github.com/ningbaoqi/Activity/commit/746a731d575f0dbf89f458e4e0c22e93a9392e68)
+### 设置系统属性改变时防止调用生命周期方法
+[设置系统属性改变时防止调用生命周期方法](https://github.com/ningbaoqi/Activity/blob/master/README-config.md)
