@@ -16,6 +16,10 @@ public class FourthActivity extends Activity {
          * 通过隐式跳转的 data 和 mimetype 传递数据
          * */
         Intent intent = getIntent();
+        String str = intent.getStringExtra("dashuaige");
+
+        Bundle bundle = intent.getBundleExtra("bundle");
+        String str1 = bundle.getString("caonima");
         Uri uri = intent.getData();
         String type = intent.getType();
         Toast.makeText(this, "type:" + type + "--------" + uri.toString(), Toast.LENGTH_LONG).show();

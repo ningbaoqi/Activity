@@ -18,6 +18,11 @@ public class ThirdActivity extends Activity {
          * 使用隐式跳转,需要设置action
          * */
         Intent intent = new Intent();
+        intent.putExtra("dashuaige", "wo");
+
+        Bundle bundle = new Bundle();
+        bundle.putString("caonima", "nimendoushifashabi");
+        intent.putExtra("bundle", bundle);
         /**
          * 隐式跳转到第三方Activity
          * */
