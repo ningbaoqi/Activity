@@ -14,3 +14,7 @@
 [启动activity并要求返回数据并且销毁activity](https://github.com/ningbaoqi/Activity/commit/746a731d575f0dbf89f458e4e0c22e93a9392e68)
 ### 设置系统属性改变时防止调用生命周期方法
 [设置系统属性改变时防止调用生命周期方法](https://github.com/ningbaoqi/Activity/blob/master/README-config.md)
+### 使指定的Activity在另外一个进程中运行
+```
+android:process=":FourthActivity" 但是这两个Activity是在一个任务Task中的，在默认的启动模式下
+```
