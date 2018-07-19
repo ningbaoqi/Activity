@@ -18,3 +18,13 @@
 ```
 android:process=":FourthActivity" 但是这两个Activity是在一个任务Task中的，在默认的启动模式下
 ```
+### 为应用设置权限
+```
+为自己的应用设置权限
+<permission
+    android:name="eee.ffff.gggg"
+    android:protectionLevel="normal"
+    ></permission>
+
+<use-permission android:name="eee.ffff.gggg"/>在其他应用设置权限
+```
