@@ -10,3 +10,5 @@
 |singleInstance|`全局单例模式`；在这种加载模式下，系统保证无论从哪个Task中启动目标Activity，只会创建一个目标Activity实例，并会使用一个全新的栈来加载该Activity实例；当采用该启动模式来启动目标Activity时，有以下两种情况：1、如果将要启动的目标Activity不存在，系统会先创建一个全新的Task栈，再创建目标Activity的实例，并将它加入新的Task栈顶；2、如果将要启动的目标Activity已经存在，无论它位于哪个应用程序中，位于哪个Task中，系统都会把该Activity所在的栈转到前台并`调用onNewIntent方法`，从而使得该Activity显示出来；需要指出的是：使用该加载模式的Activity总是位于Task栈顶，且采用该加载模式的Activity所在的Task栈将只包含该Activity|
 
 + Android的Task是一个有点麻烦的概念，因为Android并没有为Task提供API，因此，开发者无法真正去访问Task，只能调用`Activity的getTaskId()方法来获取它所在的Task的ID`；正常的生命周期不会调用该方法`onNewIntent`，但是在Activity切换的时候将会调用该方法；而且模式是：`singleTop`、`singleTask`、`singleInstance`；
+
+### Android的任务栈
