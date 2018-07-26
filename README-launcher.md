@@ -12,3 +12,4 @@
 + Android的Task是一个有点麻烦的概念，因为Android并没有为Task提供API，因此，开发者无法真正去访问Task，只能调用`Activity的getTaskId()方法来获取它所在的Task的ID`；正常的生命周期不会调用该方法`onNewIntent`，但是在Activity切换的时候将会调用该方法；而且模式是：`singleTop`、`singleTask`、`singleInstance`；
 
 ### Android的任务栈
+![image](https://github.com/ningbaoqi/Activity/blob/master/gif/pic-2.jpg) 
