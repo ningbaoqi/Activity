@@ -34,7 +34,6 @@ Activity横竖屏切换生命周期：oncreate->onstart->onresume
 换方向 onpause->onstop->ondestory->oncreate->onstart->onresume
 
 可以在onSaveInstanceState方法中保存信息，然后在onCreate方法中进行判断拿取，其中onSaveInstanceState方法在onpause之后，在onstop之前调用;onSaveInstanceState该方法只有在异常终止的情况下才会调用；官方文档推荐使用onRestoreInstanceState方法去恢复数据，因为在该方法的参数不为null的时候才会被调用，而onCreate需要进行判断；
-
 ```
 #### Android进程优先级
 
