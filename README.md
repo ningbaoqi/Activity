@@ -40,3 +40,5 @@ android:process=":FourthActivity" 但是这两个Activity是在一个任务Task�
 [Activity启动模式](https://github.com/ningbaoqi/Activity/blob/master/README-launcher.md)
 ### Activity的Flags
 [Activity的Flags](https://github.com/ningbaoqi/Activity/blob/master/README-flags.md)
+### IntentFilter的匹配规则
+[IntentFilter的匹配规则](https://github.com/ningbaoqi/Activity/blob/master/README-match.md)
