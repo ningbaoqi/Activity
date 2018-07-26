@@ -28,3 +28,5 @@ android:process=":FourthActivity" 但是这两个Activity是在一个任务Task�
 
 <use-permission android:name="eee.ffff.gggg"/>在其他应用设置权限
 ```
+### Activity生命周期
+[Activity生命周期](https://github.com/ningbaoqi/Activity/blob/master/README-life.md)
