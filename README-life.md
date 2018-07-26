@@ -9,7 +9,7 @@
 |销毁状态|该Activity结束，或Activity所在的进程被结束，它所储存的信息、成员变量就不存在了|
 
 #### Activity生命周期
-![image](https://github.com/ningbaoqi/Activity/tree/master/gif) 
+![image](https://github.com/ningbaoqi/Activity/blob/master/gif/pic-1.jpg) 
 
 #### Activity的回调方法说明
 
