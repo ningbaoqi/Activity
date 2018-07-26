@@ -13,5 +13,5 @@
 |------|------|
 |scheme|URI的模式如http、file、content等；如果URI中没有指定scheme，那么整个URI的其他参数无效，这也意味着URI是无效的|
 |host|URI的主机名如www.baidu.com；如果host未指定，那么整个URI中的其他参数无效，这也意味着URI是无效的|
-|||
-|||
+|port|URI中的端口号，如80；仅当URI中指定了scheme、host参数的时候port参数才是有意义的|
+|Path、pathPattern、pathPrefix|这三个参数表述路径信息，其中path表示完整的路径信息；pathPattern也表示完整的路径信息，但是它里面可以包含`*`通配符，该通配符表示0个或多个任意字符，需要注意的是，由于正则表达式的规范，如果想表示真实的字符串，那么`*`要改写成`\\*`，`\`要写成`\\\\`；pathPrefix表示路径的前缀信息|
