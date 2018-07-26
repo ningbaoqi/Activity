@@ -30,3 +30,5 @@ android:process=":FourthActivity" 但是这两个Activity是在一个任务Task�
 ```
 ### Activity生命周期
 [Activity生命周期](https://github.com/ningbaoqi/Activity/blob/master/README-life.md)
+### Activity启动模式
+[Activity启动模式](https://github.com/ningbaoqi/Activity/blob/master/README-launcher.md)
