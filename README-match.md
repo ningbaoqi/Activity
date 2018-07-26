@@ -9,3 +9,9 @@
 //URI的结构
 <scheme>://<host>:<port>/[<path>|<pathPrefix>|<pathPattern>]
 ```
+|字段|含义|
+|------|------|
+|scheme|URI的模式如http、file、content等；如果URI中没有指定scheme，那么整个URI的其他参数无效，这也意味着URI是无效的|
+|host|URI的主机名如www.baidu.com；如果host未指定，那么整个URI中的其他参数无效，这也意味着URI是无效的|
+|||
+|||
